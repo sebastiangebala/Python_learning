@@ -1,0 +1,7 @@
+Crlt + Shift + V     	Paste in terminal
+Ctrl + L	         	Clears the terminal output
+clear	         		Clears the terminal output
+sudo                 	(SuperUser DO) Linux command allows you to run programs or other commands with administrative privileges
+apt-get              	It is used to install, update, upgrade and remove any package
+apt-get update       	with super user privileges is the first command you need to run in any Linux system after a fresh install.
+sudo apt-get upgrade 	After updating the package database, next step is to to upgrade the installed packages.
