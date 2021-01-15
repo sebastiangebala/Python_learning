@@ -1,4 +1,5 @@
 # Lists and dictionaires
+# zip
 
 def my_list():
 	beer = ['Pale Ale', 'Gose', 'Berliner Weisse', 'Golden', 'Porter']  #position in the list in unchenged
@@ -50,3 +51,9 @@ def my_dict():
 	beers2 = {'Beer':{'sour':'Gose', 'sweet':'Wee Heavy', 'heavy':'RIS'}, 'Price':[8,19,16]}
 	i = (beers2['Beer']['sour'], beers2['Price'][0])
 	return a,b,c,d,e,beers,f,g,h,i
+
+keys = ['Gose', 'RIS', 'Czech Pils']
+values = ['sour', 'heavy', 'lager']
+
+join_beer = dict(zip(keys, values))
+

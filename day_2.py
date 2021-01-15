@@ -23,6 +23,7 @@ zz = 'Abrakadabra' 				#calling as zz
 
 def str_yy():
 	yy = 'Belgian Pale Ale'
+	xx = 'Gose,IPA,APA,RIS'
 	a = len(yy)
 	b = yy[2]
 	c = yy[3:7]
@@ -35,7 +36,9 @@ def str_yy():
 	j = yy.capitalize()
 	k = yy.isalpha()
 	l = yy.rstrip()
-	return a,b,c,d,e,f,g,h,i,j,k,l
+	m = yy[::-1]          #reverse
+	n = xx.split(',')
+	return a,b,c,d,e,f,g,h,i,j,k,l,m,n
 
 def int_yy():
 	yy = 657
