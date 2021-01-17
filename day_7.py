@@ -5,6 +5,7 @@
 # enumerate
 # iter
 # == / is
+# keyword=None means that this keyword is not obligatory but you can fill it
 
 msg_template = """ Hello {name}
 I'm happy to informy that my fav beer is {beer}.
