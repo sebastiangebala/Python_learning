@@ -43,7 +43,16 @@
 			"file": "day_7.py",
 			"settings":
 			{
-				"buffer_size": 2105,
+				"buffer_size": 2182,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day_8.py",
+			"settings":
+			{
+				"buffer_size": 514,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -125,7 +134,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -134,21 +143,49 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2105,
+						"buffer_size": 2182,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								160,
+								160
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "day_8.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
